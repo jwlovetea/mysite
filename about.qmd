@@ -19,3 +19,16 @@ print("hello world")
 
 Check this Option:
 ![](assets/images/actions_setting.jpg)
+
+<https://github.com/quarto-dev/quarto-actions>
+
+# Teach Yourself Programming in Ten Years
+
+## <https://norvig.com/21-days.html>
+
+## The Structure and Interpretation of Computer Programs
+
+<https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html>
+
+book contents:
+<https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage>
