@@ -10,3 +10,13 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{python}
 1 + 1
 ```
+
+# Reference
+
+<https://github.com/mlabonne/llm-course>
+
+# Publish to `GitHub Pages`
+
+```
+quarto publish gh-pages
+```
