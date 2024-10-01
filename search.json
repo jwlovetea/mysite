@@ -11,6 +11,13 @@
     "href": "index.html",
     "title": "mysite",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n2\n\n\n\nReference\nhttps://github.com/mlabonne/llm-course"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "index.html#a-better-solution",
+    "href": "index.html#a-better-solution",
+    "title": "mysite",
+    "section": "a better solution",
+    "text": "a better solution\nhttps://quarto.org/docs/publishing/github-pages.html"
   }
 ]

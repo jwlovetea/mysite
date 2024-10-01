@@ -147,6 +147,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference</a></li>
+  <li><a href="#publish-to-github-pages" id="toc-publish-to-github-pages" class="nav-link" data-scroll-target="#publish-to-github-pages">Publish to <code>GitHub Pages</code></a>
+  <ul class="collapse">
+  <li><a href="#a-better-solution" id="toc-a-better-solution" class="nav-link" data-scroll-target="#a-better-solution">a better solution</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -174,7 +178,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>This is a Quarto website.</p>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div id="6e846686" class="cell" data-execution_count="1">
+<div id="b9b1a0c8" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="op">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>2</code></pre>
@@ -183,8 +187,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="reference" class="level1">
 <h1>Reference</h1>
 <p><a href="https://github.com/mlabonne/llm-course" class="uri">https://github.com/mlabonne/llm-course</a></p>
+</section>
+<section id="publish-to-github-pages" class="level1">
+<h1>Publish to <code>GitHub Pages</code></h1>
+<pre><code>quarto publish gh-pages</code></pre>
+<section id="a-better-solution" class="level2">
+<h2 class="anchored" data-anchor-id="a-better-solution">a better solution</h2>
+<p><a href="https://quarto.org/docs/publishing/github-pages.html" class="uri">https://quarto.org/docs/publishing/github-pages.html</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -280,7 +292,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/jwlovetea\.github\.io\/mysite\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
