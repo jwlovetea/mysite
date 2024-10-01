@@ -16,3 +16,6 @@ About this site
 ```{python}
 print("hello world")
 ```
+
+Check this Option:
+![](assets/images/actions_setting.jpg)
