@@ -1,0 +1,12 @@
+{
+  "hash": "e4abdc1ab7a35c9a40a95a0493a6cdb8",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"mysite\"\njupyter: python3\n---\n\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n::: {#b9b1a0c8 .cell execution_count=1}\n``` {.python .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n2\n```\n:::\n:::\n\n\n# Reference\n\n<https://github.com/mlabonne/llm-course>\n\n# Publish to `GitHub Pages`\n\n```\nquarto publish gh-pages\n```\n\n## a better solution\n\n<https://quarto.org/docs/publishing/github-pages.html>\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
