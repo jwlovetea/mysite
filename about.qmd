@@ -31,4 +31,11 @@ Check this Option:
 <https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html>
 
 book contents:
-<https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage>
+
+original version: <https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage>
+
+study notes: A reference <https://github.com/abrantesasf/sicp-abrantes-study-guide>
+
+HTML version of SICP <https://sarabander.github.io/sicp/html/index.xhtml>
+
+reference course: <https://cs61a.org/>
