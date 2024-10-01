@@ -8,3 +8,11 @@ About this site
 ```{python}
 1 + 1
 ```
+
+
+# another example
+
+
+```{python}
+print("hello world")
+```
