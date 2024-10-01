@@ -4,7 +4,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n2\n\n\n\nanother example\n\nprint(\"hello world\")\n\nhello world\n\n\nCheck this Option:"
+    "text": "About this site\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "about.html#httpsnorvig.com21-days.html",
+    "href": "about.html#httpsnorvig.com21-days.html",
+    "title": "About",
+    "section": "https://norvig.com/21-days.html",
+    "text": "https://norvig.com/21-days.html"
+  },
+  {
+    "objectID": "about.html#the-structure-and-interpretation-of-computer-programs",
+    "href": "about.html#the-structure-and-interpretation-of-computer-programs",
+    "title": "About",
+    "section": "The Structure and Interpretation of Computer Programs",
+    "text": "The Structure and Interpretation of Computer Programs\nhttps://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html\nbook contents: https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage"
   },
   {
     "objectID": "index.html",
