@@ -18,7 +18,7 @@
     "href": "about.html#the-structure-and-interpretation-of-computer-programs",
     "title": "About",
     "section": "The Structure and Interpretation of Computer Programs",
-    "text": "The Structure and Interpretation of Computer Programs\nhttps://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html\nbook contents: https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage"
+    "text": "The Structure and Interpretation of Computer Programs\nhttps://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html\nbook contents:\noriginal version: https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage\nstudy notes: A reference https://github.com/abrantesasf/sicp-abrantes-study-guide\nHTML version of SICP https://sarabander.github.io/sicp/html/index.xhtml\nreference course: https://cs61a.org/\nVideo: https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5\n- &lt;https://cs10.org/fa24/&gt;\n\n- &lt;https://c88c.org/fa24/&gt;\n\n- 中文版 &lt;https://github.com/apachecn/sicp-py-zh/blob/master/ch5.md&gt;"
   },
   {
     "objectID": "index.html",
