@@ -39,3 +39,16 @@ study notes: A reference <https://github.com/abrantesasf/sicp-abrantes-study-gui
 HTML version of SICP <https://sarabander.github.io/sicp/html/index.xhtml>
 
 reference course: <https://cs61a.org/>
+
+Video: <https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5>
+
+    - <https://cs10.org/fa24/>
+
+    - <https://c88c.org/fa24/>
+
+    - 中文版 <https://github.com/apachecn/sicp-py-zh/blob/master/ch5.md>
+
+
+# How to do great work
+
+<https://paulgraham.com/greatwork.html>
