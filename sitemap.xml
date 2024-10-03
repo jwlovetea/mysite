@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jwlovetea.github.io/mysite/about.html</loc>
-    <lastmod>2024-10-02T09:35:32.896Z</lastmod>
+    <lastmod>2024-10-03T14:42:37.228Z</lastmod>
   </url>
   <url>
     <loc>https://jwlovetea.github.io/mysite/index.html</loc>
-    <lastmod>2024-10-02T09:35:32.898Z</lastmod>
+    <lastmod>2024-10-03T14:42:37.230Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jwlovetea.github.io/mysite/mynotes.html</loc>
+    <lastmod>2024-10-03T14:42:37.230Z</lastmod>
   </url>
 </urlset>

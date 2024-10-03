@@ -33,5 +33,12 @@
     "title": "mysite",
     "section": "a better solution",
     "text": "a better solution\nhttps://quarto.org/docs/publishing/github-pages.html"
+  },
+  {
+    "objectID": "mynotes.html",
+    "href": "mynotes.html",
+    "title": "My Notes",
+    "section": "",
+    "text": "Check my public IP\n\nimport requests\n\ndef get_public_ip():\n    response = requests.get('https://httpbin.org/ip')\n    return response.json()['origin']\n\npublic_ip = get_public_ip()\nprint(f'Your public IP address is: {public_ip}')\n\nYour public IP address is: 114.93.129.162"
   }
 ]

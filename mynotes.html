@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – mysite</title>
+<title>My Notes – mysite</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,11 +127,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./mynotes.html"> 
+    <a class="nav-link active" href="./mynotes.html" aria-current="page"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -150,13 +150,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#another-example" id="toc-another-example" class="nav-link active" data-scroll-target="#another-example">another example</a></li>
-  <li><a href="#teach-yourself-programming-in-ten-years" id="toc-teach-yourself-programming-in-ten-years" class="nav-link" data-scroll-target="#teach-yourself-programming-in-ten-years">Teach Yourself Programming in Ten Years</a>
-  <ul class="collapse">
-  <li><a href="#httpsnorvig.com21-days.html" id="toc-httpsnorvig.com21-days.html" class="nav-link" data-scroll-target="#httpsnorvig.com21-days.html">https://norvig.com/21-days.html</a></li>
-  <li><a href="#the-structure-and-interpretation-of-computer-programs" id="toc-the-structure-and-interpretation-of-computer-programs" class="nav-link" data-scroll-target="#the-structure-and-interpretation-of-computer-programs">The Structure and Interpretation of Computer Programs</a></li>
-  </ul></li>
-  <li><a href="#how-to-do-great-work" id="toc-how-to-do-great-work" class="nav-link" data-scroll-target="#how-to-do-great-work">How to do great work</a></li>
+  <li><a href="#check-my-public-ip" id="toc-check-my-public-ip" class="nav-link active" data-scroll-target="#check-my-public-ip">Check my public IP</a></li>
   </ul>
 </nav>
     </div>
@@ -165,7 +159,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">My Notes</h1>
 </div>
 
 
@@ -182,48 +176,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div id="df996691" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="op">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="1">
-<pre><code>2</code></pre>
-</div>
-</div>
-<section id="another-example" class="level1">
-<h1>another example</h1>
-<div id="94e60ee4" class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"hello world"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="check-my-public-ip" class="level1">
+<h1>Check my public IP</h1>
+<div id="00d42783" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_public_ip():</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> requests.get(<span class="st">'https://httpbin.org/ip'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> response.json()[<span class="st">'origin'</span>]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>public_ip <span class="op">=</span> get_public_ip()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f'Your public IP address is: </span><span class="sc">{</span>public_ip<span class="sc">}</span><span class="ss">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>hello world</code></pre>
+<pre><code>Your public IP address is: 114.93.129.162</code></pre>
 </div>
 </div>
-<p>Check this Option: <img src="assets/images/actions_setting.jpg" class="img-fluid"></p>
-<p><a href="https://github.com/quarto-dev/quarto-actions" class="uri">https://github.com/quarto-dev/quarto-actions</a></p>
-</section>
-<section id="teach-yourself-programming-in-ten-years" class="level1">
-<h1>Teach Yourself Programming in Ten Years</h1>
-<section id="httpsnorvig.com21-days.html" class="level2">
-<h2 class="anchored" data-anchor-id="httpsnorvig.com21-days.html"><a href="https://norvig.com/21-days.html" class="uri">https://norvig.com/21-days.html</a></h2>
-</section>
-<section id="the-structure-and-interpretation-of-computer-programs" class="level2">
-<h2 class="anchored" data-anchor-id="the-structure-and-interpretation-of-computer-programs">The Structure and Interpretation of Computer Programs</h2>
-<p><a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html" class="uri">https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html</a></p>
-<p>book contents:</p>
-<p>original version: <a href="https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage" class="uri">https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-1.html#titlepage</a></p>
-<p>study notes: A reference <a href="https://github.com/abrantesasf/sicp-abrantes-study-guide" class="uri">https://github.com/abrantesasf/sicp-abrantes-study-guide</a></p>
-<p>HTML version of SICP <a href="https://sarabander.github.io/sicp/html/index.xhtml" class="uri">https://sarabander.github.io/sicp/html/index.xhtml</a></p>
-<p>reference course: <a href="https://cs61a.org/" class="uri">https://cs61a.org/</a></p>
-<p>Video: <a href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5" class="uri">https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5</a></p>
-<pre><code>- &lt;https://cs10.org/fa24/&gt;
-
-- &lt;https://c88c.org/fa24/&gt;
-
-- 中文版 &lt;https://github.com/apachecn/sicp-py-zh/blob/master/ch5.md&gt;</code></pre>
-</section>
-</section>
-<section id="how-to-do-great-work" class="level1">
-<h1>How to do great work</h1>
-<p><a href="https://paulgraham.com/greatwork.html" class="uri">https://paulgraham.com/greatwork.html</a></p>
 
 
 </section>
