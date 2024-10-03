@@ -1,0 +1,12 @@
+{
+  "hash": "9d1ce1637d7a73433fbec67e5ebb8b4b",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"My Notes\"\njupyter: python3\n---\n\n\n# Check my public IP\n\n::: {#00d42783 .cell execution_count=1}\n``` {.python .cell-code}\nimport requests\n\ndef get_public_ip():\n    response = requests.get('https://httpbin.org/ip')\n    return response.json()['origin']\n\npublic_ip = get_public_ip()\nprint(f'Your public IP address is: {public_ip}')\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nYour public IP address is: 114.93.129.162\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "mynotes_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
